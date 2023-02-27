@@ -1,6 +1,5 @@
 {
   "name": "pwa_react",
-  "homepage": "https://www.wisbato.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
