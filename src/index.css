@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:400,300,400italic,700");
+
+@font-face {
+  font-family: "crazy";
+  src: url("./assets/fonts/crazy/crazy.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "crazy";
+  src: url("./assets/fonts/crazy/crazy.eot");
+  src: url("./assets/fonts/crazy/crazy.eot") format("embedded-opentype"),
+    url("./assets/fonts/crazy/crazy.ttf") format("truetype"),
+    url("./assets/fonts/crazy/crazy.woff") format("woff"),
+    url("./assets/fonts/crazy/crazy.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+.service-icon {
+  margin-top: 1rem;
+  font-style: normal;
+}
+.cr-diamond::before {
+  font-family: "crazy";
+  content: "\e906";
+  font-size: 50px;
+}
+.cr-star::before {
+  font-family: "crazy";
+  content: "\e90e";
+  font-size: 42px;
+}
+.cr-light::before {
+  font-family: "crazy";
+  content: "\e901";
+  font-size: 59px;
+}
+.cr-anchor::before {
+  font-family: "crazy";
+  content: "\e903";
+  font-size: 42px;
+}
+.cr-flower::before {
+  font-family: "crazy";
+  content: "\e902";
+  font-size: 49px;
+}
+.cr-target::before {
+  font-family: "crazy";
+  content: "\e900";
+  font-size: 45px;
+}
+
+/* footer */
+.cr-location:before {
+  font-family: "crazy";
+  content: "\e909";
+  font-size: 45px;
+}
+.cr-phone:before {
+  font-family: "crazy";
+  content: "\e90c";
+  font-size: 45px;
+}
+.cr-pencil:before {
+  font-family: "crazy";
+  content: "\e90b";
+  font-size: 45px;
+}
+/* footer */
+
+/* SLIDER BUTTONS */
+@font-face {
+  font-family: "Linearicons-Free";
+  src: url("./assets/fonts/LinearIcons/Linearicons-Free.eot?w118d");
+  src: url("./assets/fonts/LinearIcons/Linearicons-Free.eot?#iefixw118d")
+      format("embedded-opentype"),
+    url("./assets/fonts/LinearIcons/Linearicons-Free.woff2?w118d")
+      format("woff2"),
+    url("./assets/fonts/LinearIcons/Linearicons-Free.woff?w118d") format("woff"),
+    url("./assets/fonts/LinearIcons/Linearicons-Free.ttf?w118d")
+      format("truetype"),
+    url("./assets/fonts/LinearIcons/Linearicons-Free.svg?w118d#Linearicons-Free")
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inr {
+  font-family: "Linearicons-Free";
+  margin-top: 1rem;
+  font-size: 25px;
+  font-style: normal;
+
+  position: absolute;
+}
+.inr-null {
+  display: none;
+}
+.inr-arrow-left {
+  left: 4rem;
+}
+.inr-arrow-right {
+  left: 6rem;
+}
+.inr-arrow-left::before {
+  content: "\e879";
+}
+.inr-arrow-right::before {
+  content: "\e87a";
+}
+
+/* FOOTER FONT AWSOME ICONS */
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("./assets/fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0");
+  src: url("./assets/fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.5.0")
+      format("embedded-opentype"),
+    url("./assets/fonts/font-awesome/fontawesome-webfont.woff2?v=4.5.0")
+      format("woff2"),
+    url("./assets/fonts/font-awesome/fontawesome-webfont.woff?v=4.5.0")
+      format("woff"),
+    url("./assets/fonts/font-awesome/fontawesome-webfont.ttf?v=4.5.0")
+      format("truetype"),
+    url("./assets/fonts/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular")
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fa {
+  font: normal normal normal 14px/1 "FontAwesome";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.fa-facebook-square:before {
+  content: "\f082";
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+.fa-fw {
+  width: 1em;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+}
+.fa-fw:hover {
+  color: #f7931e;
+}

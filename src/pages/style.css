@@ -1,0 +1,8 @@
+.imgHome {
+  background: linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, 0.89)),
+    url("https://www.wisbato.com/wp-content/themes/wisbato/assets/img/bg11.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 130rem;
+  background-position: center;
+}

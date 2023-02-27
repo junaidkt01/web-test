@@ -1,0 +1,9 @@
+.App {
+  border: 30px #f7931e solid;
+  background-color: #211f1f;
+}
+@media screen and (max-width: 700px) {
+  .App {
+    border: none;
+  }
+}
