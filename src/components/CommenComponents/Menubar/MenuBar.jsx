@@ -22,22 +22,22 @@ const MenuBar = () => {
     <>
       <Menu>
         <HeadsDiv onClick={handleToTop} to="/">
-          <MenuIcon src={home_svg} />
+          <MenuIcon alt="..." src={home_svg} />
           <MenuHead>Home</MenuHead>
         </HeadsDiv>
         <HeadsDiv onClick={handleToTop} to="/about">
-          <MenuIcon src={about_svg} />
+          <MenuIcon alt="..." src={about_svg} />
           <MenuHead>About</MenuHead>
         </HeadsDiv>
-        <HeadsDiv onClick={handleToTop} to="">
-          <RoboIcon src={wis_head_svg} />
+        <HeadsDiv onClick={handleToTop} to="/">
+          <RoboIcon alt="..." src={wis_head_svg} />
         </HeadsDiv>
         <HeadsDiv onClick={handleToTop} to="/services">
-          <MenuIcon src={service_svg} />
+          <MenuIcon alt="..." src={service_svg} />
           <MenuHead>Service</MenuHead>
         </HeadsDiv>
         <HeadsDiv onClick={handleToTop} to="/contactus">
-          <MenuIcon src={mail_svg} />
+          <MenuIcon alt="..." src={mail_svg} />
           <MenuHead>Contact</MenuHead>
         </HeadsDiv>
       </Menu>

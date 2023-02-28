@@ -2,9 +2,10 @@ import Aos from "aos";
 import React, { useEffect } from "react";
 import { aboutUs } from "../../datas";
 
-import index_one_about from "../../assets/img/index_one_about.png";
-import love_gif from "../../assets/img/love.gif";
-import testimonial_img from "../../assets/img/testimonial-img.png";
+import index_one_about from "../../assets/img/index_one_about.webp";
+// import love_gif from "../../assets/img/love.gif";
+import love_gif from "../../assets/img/love.webp";
+import testimonial_img from "../../assets/img/testimonial-img.webp";
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -106,7 +107,7 @@ const About = () => {
           <NewCards data-aos="zoom-in">
             <NewCard>
               <NewIcon>
-                <i class="fas fa-Thin fa-gem"></i>
+              <i className="nw cr-diamnd"></i>
               </NewIcon>
               <NewHead>CREATIVE DESIGN</NewHead>
               <NewText>Creative and unique designs assured</NewText>
@@ -114,7 +115,7 @@ const About = () => {
             <XIcon>X</XIcon>
             <NewCard>
               <NewIcon>
-                <i class="fas fa-Thin fa-magnifying-glass"></i>
+              <i className="nw cr-magnifier"></i>
               </NewIcon>
               <NewHead>WELL ORGANIZED</NewHead>
               <NewText>Well organized and easy to update in future</NewText>
@@ -122,7 +123,7 @@ const About = () => {
             <XIcon>X</XIcon>
             <NewCard>
               <NewIcon>
-                <i class="fas fa-Thin fa-gear"></i>
+              <i className="nw cr-gear"></i>
               </NewIcon>
               <NewHead>EASY TO CUSTOMIZE</NewHead>
               <NewText>
@@ -132,7 +133,7 @@ const About = () => {
             <XIcon>X</XIcon>
             <NewCard>
               <NewIcon>
-                <i class="fas fa-Thin fa-star"></i>
+              <i className="nw cr-star"></i>
               </NewIcon>
               <NewHead>SUPPORT 24/7</NewHead>
               <NewText>24/7 Support for every Wisbato Client</NewText>

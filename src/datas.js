@@ -1,6 +1,6 @@
-import graphic from "./assets/img/graphic.png";
-import webdesign from "./assets/img/webdesign.png";
-import branding from "./assets/img/branding.png";
+import graphic from "./assets/img/graphic.webp";
+import webdesign from "./assets/img/webdesign.webp";
+import branding from "./assets/img/branding.webp";
 
 export const sliderData = [
   {

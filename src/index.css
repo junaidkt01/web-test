@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black|Roboto:400,300,400italic,700");
 
-@font-face {
+/* @font-face {
   font-family: "crazy";
   src: url("./assets/fonts/crazy/crazy.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 body {
   margin: 0;
@@ -62,6 +62,31 @@ code {
   content: "\e900";
   font-size: 45px;
 }
+/* ////////////// */
+.nw {
+  font-family: "crazy";
+  margin-top: 1rem;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.cr-diamnd::before {
+  content: "\e906";
+}
+
+.cr-magnifier::before {
+  content: "\e90a";
+}
+
+.cr-gear::before {
+  content: "\e907";
+}
+
+.cr-star:before {
+  content: "\e90e";
+}
+
+/* ////////////// */
 
 /* footer */
 .cr-location:before {
@@ -147,8 +172,14 @@ code {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
-.fa-facebook-square:before {
-  content: "\f082";
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
 }
 .fa-linkedin:before {
   content: "\f0e1";
@@ -160,5 +191,14 @@ code {
   cursor: pointer;
 }
 .fa-fw:hover {
+  color: #f7931e;
+}
+
+.fa-play:before {
+  content: "\f04b";
+}
+
+.fa-envelope-o:before {
+  content: "\f003";
   color: #f7931e;
 }

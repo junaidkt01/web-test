@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 import logo_white from "../../../assets/img/logo-white.png";
-import wis_gif from "../../../assets/img/wis.gif";
+// import wis_gif from "../../../assets/img/wis.gif";
+import wis_gif from "../../../assets/img/wis.webp";
 
 export const Nav = styled.div`
   margin: 0 4rem 0 4rem;
@@ -33,6 +34,7 @@ export const Logo = styled.div`
 
   background-repeat: no-repeat;
 `;
+
 export const LogoGif = styled.div`
   background: url(${wis_gif});
   width: 180px;

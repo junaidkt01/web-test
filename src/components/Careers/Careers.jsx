@@ -52,7 +52,7 @@ const Careers = () => {
                 <EmailDiv>
                   <i
                     style={{ marginRight: "0.5rem" }}
-                    className="fas fa-envelope"
+                    className="fa fa-envelope-o"
                   ></i>
                   <EmailText>{items.email}</EmailText>
                 </EmailDiv>

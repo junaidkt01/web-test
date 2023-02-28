@@ -77,7 +77,10 @@ const ContactUs = () => {
           <FooterAddress>
             <AddressDiv data-aos="zoom-in">
               <AddressIcons>
-                <i style={{ color: "black" }} class="fas fa-location-dot"></i>
+                <i
+                  style={{ color: "black" }}
+                  className="service-icon cr-location"
+                ></i>
               </AddressIcons>
               <AddressText>
                 No. 2817/2 & D16/2, VV Mohalla Mysuru, Mysore, Karnataka
@@ -85,13 +88,16 @@ const ContactUs = () => {
             </AddressDiv>
             <AddressDiv data-aos="zoom-in">
               <AddressIcons>
-                <i style={{ color: "black" }} class="fas fa-mobile"></i>
+                <i style={{ color: "black" }} class="service-icon cr-phone"></i>
               </AddressIcons>
               <AddressText>(+91) 9562854321</AddressText>
             </AddressDiv>
             <AddressDiv data-aos="zoom-in">
               <AddressIcons>
-                <i style={{ color: "black" }} class="fas fa-envelope"></i>
+                <i
+                  style={{ color: "black" }}
+                  class="service-icon cr-pencil"
+                ></i>
               </AddressIcons>
               <AddressText>hello@wisbato.com</AddressText>
             </AddressDiv>

@@ -38,6 +38,7 @@ export const MenuHead = styled.p`
 `;
 export const MenuIcon = styled.img`
   width: 40px;
+  height: auto;
   margin-bottom: -14px;
   margin-left: 3px;
 `;

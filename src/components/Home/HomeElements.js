@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { Link as Links } from "react-scroll";
+import { Link } from "react-router-dom";
 
-import bg3 from "../../assets/img/bg3.png";
-import superwis from "../../assets/img/superwis.gif";
+import bg3 from "../../assets/img/bg3_.webp";
+import superwis from "../../assets/img/superwis.webp";
 import wis7 from "../../assets/img/wis7.png";
 
 // BANNER SECTION START ------------
@@ -99,7 +99,9 @@ export const HomeItem = styled.div`
     display: none;
   }
 `;
-export const HomeItemsLink = styled(Links)`
+export const HomeItemsLink = styled(Link)`
+  text-decoration: none;
+  color: #fff;
   font-size: large;
   font-weight: 500;
   cursor: pointer;
@@ -185,6 +187,8 @@ export const AboutImg = styled.img`
   margin-top: -75px;
   background-size: cover;
   background-position: center;
+  width: auto;
+  height: auto;
 
   @media screen and (max-width: 900px) {
     position: static;
@@ -416,6 +420,8 @@ export const WorksText = styled.p`
 `;
 export const WorkImg = styled.img`
   margin-bottom: 2rem;
+  width: auto;
+  height: auto;
   @media screen and (max-width: 900px) {
     margin-left: 1rem;
     max-width: 90%;
@@ -478,7 +484,9 @@ export const QuoteText = styled.p`
   }
 `;
 
-export const PlayButton = styled.button`
+export const PlayButton = styled.div`
+  display: grid;
+  place-items: center;
   border: 4px solid #f7931e;
   width: 80px;
   height: 80px;
@@ -488,7 +496,6 @@ export const PlayButton = styled.button`
   font-weight: 500;
   cursor: pointer;
   font-size: 20px;
-  /* margin-left: 40%; */
   margin-bottom: 3rem;
 
   transition: all 0.2s ease-out;

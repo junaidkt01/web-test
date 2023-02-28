@@ -80,7 +80,7 @@ const ChatDiv = () => {
             <ChatText>Questions? Let's Chat</ChatText>
           </Chat>
         )}
-        <ChatIcon src={support_gif} />
+        <ChatIcon alt="..." src={support_gif} />
       </LiveChat>
     </>
   );

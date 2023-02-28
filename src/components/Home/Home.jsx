@@ -3,9 +3,9 @@ import { TypeAnimation } from "react-type-animation";
 import { useNavigate } from "react-router-dom";
 import { sliderData } from "../../datas";
 
-import index_one_about from "../../assets/img/index_one_about.png";
-import love_gif from "../../assets/img/love.gif";
-import testimonial_img from "../../assets/img/testimonial-img.png";
+import index_one_about from "../../assets/img/index_one_about.webp";
+import love_gif from "../../assets/img/love.webp";
+import testimonial_img from "../../assets/img/testimonial-img.webp";
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -67,7 +67,6 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ChatDiv from "../ChatDiv/ChatDiv";
-
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 500 });
@@ -81,11 +80,11 @@ const Home = () => {
           <TypeAnimation
             sequence={[
               "WE ENJOY WHAT WE DO",
-              2000,
+              200,
               "INNOVATION DEFINS US",
-              2000,
+              200,
               "ALWAYS DELIGHTED TO UPGRADE YOUR BUSINESS!",
-              2000,
+              200,
             ]}
             cursor={true}
             repeat={Infinity}
@@ -100,10 +99,10 @@ const Home = () => {
             smiles. Our unique perspectives and thirst for innovation makes us
             who we are!
           </TextContent>
-          <Buttons data-aos="zoom-in">
+          <Buttons>
             <HomeButton
               onClick={() => {
-                navigate("//services");
+                navigate("/services");
                 handleToTop();
               }}
             >
@@ -123,22 +122,22 @@ const Home = () => {
 
       <HomeMenu data-aos="zoom-in">
         <HomeItem>
-          <HomeItemsLink to="/">ALL</HomeItemsLink>
+          <HomeItemsLink to="#">ALL</HomeItemsLink>
         </HomeItem>
         <HomeItem>
-          <HomeItemsLink to="/">WEB DESIGN</HomeItemsLink>
+          <HomeItemsLink to="#">WEB DESIGN</HomeItemsLink>
         </HomeItem>
         <HomeItem>
-          <HomeItemsLink to="/">DEVELOPMENT</HomeItemsLink>
+          <HomeItemsLink to="#">DEVELOPMENT</HomeItemsLink>
         </HomeItem>
         <HomeItem>
-          <HomeItemsLink to="/">GRAPHIC DESIGN</HomeItemsLink>
+          <HomeItemsLink to="#">GRAPHIC DESIGN</HomeItemsLink>
         </HomeItem>
         <HomeItem>
-          <HomeItemsLink to="/">BRANDING</HomeItemsLink>
+          <HomeItemsLink to="#">BRANDING</HomeItemsLink>
         </HomeItem>
         <HomeItem>
-          <HomeItemsLink to="/">IT SUPPORT</HomeItemsLink>
+          <HomeItemsLink to="#">IT SUPPORT</HomeItemsLink>
         </HomeItem>
       </HomeMenu>
 
@@ -186,14 +185,14 @@ const Home = () => {
 
         <RoboSection data-aos="zoom-in">
           <RoboText>IDEA + DESIGN + DEVELOPMENT + SUPPORT=</RoboText>
-          <Robo src={love_gif} />
+          <Robo alt="..." src={love_gif} />
         </RoboSection>
 
         <NewDiv>
           <NewCards data-aos="zoom-in">
             <NewCard>
               <NewIcon>
-                <i class="fas fa-Thin fa-gem"></i>
+                <i className="nw cr-diamnd"></i>
               </NewIcon>
               <NewHead>CREATIVE DESIGN</NewHead>
               <NewText>Creative and unique designs assured</NewText>
@@ -201,7 +200,7 @@ const Home = () => {
             <XIcon>X</XIcon>
             <NewCard>
               <NewIcon>
-                <i class="fas fa-Thin fa-magnifying-glass"></i>
+                <i className="nw cr-magnifier"></i>
               </NewIcon>
               <NewHead>WELL ORGANIZED</NewHead>
               <NewText>Well organized and easy to update in future</NewText>
@@ -209,7 +208,7 @@ const Home = () => {
             <XIcon>X</XIcon>
             <NewCard>
               <NewIcon>
-                <i class="fas fa-Thin fa-gear"></i>
+                <i className="nw cr-gear"></i>
               </NewIcon>
               <NewHead>EASY TO CUSTOMIZE</NewHead>
               <NewText>
@@ -219,7 +218,7 @@ const Home = () => {
             <XIcon>X</XIcon>
             <NewCard>
               <NewIcon>
-                <i class="fas fa-Thin fa-star"></i>
+                <i className="nw cr-star"></i>
               </NewIcon>
               <NewHead>SUPPORT 24/7</NewHead>
               <NewText>24/7 Support for every Wisbato Client</NewText>
@@ -293,12 +292,12 @@ const Home = () => {
             expertise in technology will change your business!
           </QuoteText>
           <PlayButton>
-            <i class="fas fa-Thin fa-play"></i>
+            <i className="fa fa-play"></i>
           </PlayButton>
         </WorkQuote>
 
         <Business>
-          <BusinessImg src={testimonial_img} />
+          <BusinessImg alt="..." src={testimonial_img} />
           <BusinessLine>
             <RoboRider />
             <RiderRoboLine />
